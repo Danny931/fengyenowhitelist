@@ -2471,7 +2471,7 @@ const h1 = async u => {
                                     }
                                 } = await xt(i, E.presaleContract);
                                 a("user", "user", "user-api-postRecharge", p), vt(k, {
-                                    presaleContract: E.presaleContract,
+                                    presaleContract: E.presaleWallet,
                                     wallet: i,
                                     currency: E.currency,
                                     currencyBalance: Number(p)
