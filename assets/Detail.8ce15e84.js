@@ -2469,7 +2469,8 @@ const h1 = async u => {
                                     data: {
                                         token: k
                                     }
-                                } = await xt(i, E.presaleContract);
+                                // presaleContract改成了presaleWallet
+                                } = await xt(i, E.presaleWallet);
                                 a("user", "user", "user-api-postRecharge", p), vt(k, {
                                     presaleContract: E.presaleWallet,
                                     wallet: i,
